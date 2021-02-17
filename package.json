@@ -1,0 +1,29 @@
+{
+  "name": "dropsnft_contracts",
+  "version": "1.0.0",
+  "description": "Dropsnft contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropsnft/contracts.git"
+  },
+  "author": "VM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropsnft/contracts/issues"
+  },
+  "homepage": "https://github.com/dropsnft/contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
